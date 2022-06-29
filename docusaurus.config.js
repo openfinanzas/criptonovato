@@ -24,9 +24,7 @@ module.exports = {
         src: 'img/logo.svg'
       },
       items: [
-        { to: '/blog', label: 'Blog', position: 'left' },
-        { to: '/blockchain-development-tools', label: 'Tools', position: 'left' },
-        { to: '/blockchain-developer-jobs', label: 'Jobs', position: 'left' }
+        //{ to: '/blog', label: 'Blog', position: 'left' },
         // {
         //   href: 'https://cryptodevhub.io/discord',
         //   label: 'Discord',
@@ -101,6 +99,16 @@ module.exports = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/cryptodevhub/site/edit/master/'
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
+        gtag: {
+          trackingID: 'G-WGGZGTT4FJ',
+          anonymizeIP: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')

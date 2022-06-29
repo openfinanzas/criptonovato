@@ -1,5 +1,5 @@
 ---
-id: sobre
+id: inicio
 title: Aprende sobre Criptomobedas y tecnología Blockchain
 description: En esta web encontrarás guías dónde se explican cómo funcionan las Criptomonedas y la tecnología Blockchain de forma simple y clara.
 slug: /
