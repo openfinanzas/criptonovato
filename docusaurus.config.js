@@ -34,55 +34,55 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Wiki',
-          items: [
-            {
-              label: 'Blockchain Development Tutorial',
-              to: '/wiki/blockchain-development-tutorial'
-            },
-            {
-              label: 'Blog',
-              to: '/blockchain-development-tutorials'
-            },
-            {
-              label: 'Tools',
-              to: '/blockchain-development-tools'
-            },
-            {
-              label: 'Jobs',
-              to: '/blockchain-developer-jobs'
-            },
-            {
-              label: 'Testnet Faucets',
-              to: '/blockchain-testnet-faucets'
-            }
-          ]
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Discord',
-              href: 'https://cryptodevhub.io/discord'
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/cryptodevhub'
-            }
-          ]
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/cryptodevhub'
-            }
-          ]
-        }
-      ],
+      // links: [
+      //   {
+      //     title: 'Wiki',
+      //     items: [
+      //       {
+      //         label: 'Blockchain Development Tutorial',
+      //         to: '/wiki/blockchain-development-tutorial'
+      //       },
+      //       {
+      //         label: 'Blog',
+      //         to: '/blockchain-development-tutorials'
+      //       },
+      //       {
+      //         label: 'Tools',
+      //         to: '/blockchain-development-tools'
+      //       },
+      //       {
+      //         label: 'Jobs',
+      //         to: '/blockchain-developer-jobs'
+      //       },
+      //       {
+      //         label: 'Testnet Faucets',
+      //         to: '/blockchain-testnet-faucets'
+      //       }
+      //     ]
+      //   },
+      //   {
+      //     title: 'Community',
+      //     items: [
+      //       {
+      //         label: 'Discord',
+      //         href: 'https://cryptodevhub.io/discord'
+      //       },
+      //       {
+      //         label: 'Twitter',
+      //         href: 'https://twitter.com/cryptodevhub'
+      //       }
+      //     ]
+      //   },
+      //   {
+      //     title: 'More',
+      //     items: [
+      //       {
+      //         label: 'GitHub',
+      //         href: 'https://github.com/cryptodevhub'
+      //       }
+      //     ]
+      //   }
+      // ],
       copyright: `Copyright © ${new Date().getFullYear()} CryptoNovato`
     },
     prism: {
@@ -98,13 +98,11 @@ module.exports = {
           path: 'wiki',
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/cryptodevhub/site/edit/master/'
+          editUrl: 'https://github.com/openfinanzas/criptonovato'
         },
         sitemap: {
           changefreq: 'weekly',
-          priority: 0.5,
-          ignorePatterns: ['/tags/**'],
-          filename: 'sitemap.xml',
+          priority: 0.5
         },
         gtag: {
           trackingID: 'G-WGGZGTT4FJ',
@@ -124,7 +122,7 @@ module.exports = {
         indexPages: true,
         indexBlog: false,
         docsDir: 'wiki',
-        docsRouteBasePath: '/wiki'
+        docsRouteBasePath: '/'
       }
     ]
   ],
