@@ -1,4 +1,4 @@
-# CryptoNovato
+# CriptoNovato
 
 CriptoNovato es un proyecto para divulgar el conocimiento sobre la tecnología Blockchain y las Criptomonedas.
 
@@ -15,5 +15,4 @@ yarn start
 
 yarn build
 
-npx vercel [--prod] [--force]
 ```
